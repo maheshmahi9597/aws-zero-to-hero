@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
 
-# Pull the Docker image from Docker Hub
-echo
-
-# Run the Docker image as a container
-echo
+#pull the Docker image from docker hub
+docker pull mahimani/simple-python-flask-app
+#run the docke image as a container
+docker run -d -p 5000:5000 mahimani/simple-python-flask-app
