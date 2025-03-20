@@ -35,8 +35,5 @@ phases:
       - echo "Build completed successfully!"
 artifacts:
   files:
-    - day-14/simple-python-app/app.py
-    - day-14/simple-python-app/requirements.txt
-    - day-14/simple-python-app/Dockerfile
-  discard-paths: yes
-  base-directory: day-14/simple-python-app/
+    - appspec.yml
+    - build/*
