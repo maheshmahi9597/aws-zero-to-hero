@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      -  - echo "Current directory contents:"
+      - echo "Current directory contents:"
       - ls -l
       - echo "Contents of day-14 directory (if it exists):"
       - ls -l day-14/
@@ -20,7 +20,6 @@ phases:
       - ls -l day-14/simple-python-app/
       - echo "Installing dependencies..."
       - pip install --no-cache-dir -r day-14/simple-python-app/requirements.txt
-  build:
   build:
     commands:
       - echo "List of files in current directory"
