@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r day-14/simple-python-app/requirements.txt
+      - pip install --no-cache-dir -r day-14/simple-python-app/requirements.txt
   build:
     commands:
       - echo "List of files in current directory"
