@@ -15,7 +15,7 @@ phases:
       - echo "Current directory contents:"
       - ls -l
       - echo "Contents of day-14 directory (if it exists):"
-      - ls -l day-14/
+      
       - echo "Contents of day-14/simple-python-app directory (if it exists):"
       - ls -l day-14/simple-python-app/
       - echo "Installing dependencies..."
